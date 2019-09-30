@@ -1,7 +1,8 @@
 const chalk = require('chalk');
 const clear = require('clear');
 const figlet = require('figlet');
-const funtion = require('./functions');
+// import functions from './functions'
+const {newsSources,menu} = require('./apiFunctions');
 
 clear();
 console.log(
@@ -9,3 +10,6 @@ console.log(
         figlet.textSync('YOUR NEWS', { horizontalLayout: 'full' })
     )
 );
+
+
+menu();
