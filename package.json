@@ -1,0 +1,11 @@
+{
+  "name": "ireporter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Susie",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^14.3.1"
+  }
+}
